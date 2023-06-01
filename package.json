@@ -1,8 +1,7 @@
 {
-  "name": "@lx/create-backend-rest-node",
+  "name": "@logxero/create-backend-rest-node",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/index.ts",
   "bin": "./bin/cli.js",
   "scripts": {
     "dev": "nodemon ./src/index.ts",

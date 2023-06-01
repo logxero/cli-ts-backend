@@ -11,7 +11,7 @@ const runCommand = command => {
   return true;
 }
 const repoName = process.argv[2];
-const gitCheckoutCommand = `git clone--depth 1 https://github.com/logxero/cli-ts-backend.git ${repoName}`;
+const gitCheckoutCommand = `git clone --depth 1 https://github.com/logxero/cli-ts-backend.git ${repoName}`;
 const installDepsCommand = `cd ${repoName} && npm install`
 
 console.log(`Cloning the repository with name ${repoName}`);
