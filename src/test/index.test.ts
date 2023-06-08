@@ -1,7 +1,6 @@
-
 // eslint-disable-next-line import/no-extraneous-dependencies
 import request from 'supertest';
-import { startServer } from '@/index';
+import { startServer } from '../index';
 
 describe('Example router test with / route', () => {
   describe('getTest', () => {
